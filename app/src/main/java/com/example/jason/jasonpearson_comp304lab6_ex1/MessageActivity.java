@@ -60,8 +60,8 @@ public class MessageActivity extends Activity {
         TextView tView = (TextView) findViewById(R.id.textView);
         tView.setText(contactName);
         //this.getSupportActionBar().setTitle(contactName);
-        ImageView imgView = (ImageView) findViewById(R.id.imageView);
-        //-imgView.setImageResource(R.mipmap.ic_launcher);
+        //-ImageView imgView = (ImageView) findViewById(R.id.imageView);
+        //-imgView.setImageResource(R.drawable.contacts);
         //
         eText = (EditText) findViewById(R.id.editText);
         eText.setOnClickListener(new View.OnClickListener() {
@@ -182,7 +182,7 @@ public class MessageActivity extends Activity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        //-Inflate the menu; this adds items to the action bar if it is present.
+        // Inflate the menu; this adds items to the action bar if it is present.
         //-getMenuInflater().inflate(R.menu.menu_message, menu);
         return true;
     }
@@ -194,8 +194,8 @@ public class MessageActivity extends Activity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        /*noinspection SimplifiableIfStatement
-        -if (id == R.id.action_settings) {
+        /*-noinspection SimplifiableIfStatement
+        if (id == R.id.action_settings) {
             return true;
         }*/
 

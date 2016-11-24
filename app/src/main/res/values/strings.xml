@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Messaging App V 1.0 - MADE BY JASON PEARSON</string>
+    <string name="app_name">My Messaging App V 1.0</string>
 
     <string name="hello_world">Welcome to Messaging page!</string>
     <string name="action_settings">Settings</string>
