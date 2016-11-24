@@ -61,7 +61,7 @@ public class MessageActivity extends Activity {
         tView.setText(contactName);
         //this.getSupportActionBar().setTitle(contactName);
         ImageView imgView = (ImageView) findViewById(R.id.imageView);
-        //imgView.setImageResource(R.mipmap.ic_launcher);
+        //-imgView.setImageResource(R.mipmap.ic_launcher);
         //
         eText = (EditText) findViewById(R.id.editText);
         eText.setOnClickListener(new View.OnClickListener() {
@@ -182,8 +182,8 @@ public class MessageActivity extends Activity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        //getMenuInflater().inflate(R.menu.menu_message, menu);
+        //-Inflate the menu; this adds items to the action bar if it is present.
+        //-getMenuInflater().inflate(R.menu.menu_message, menu);
         return true;
     }
 
@@ -195,7 +195,7 @@ public class MessageActivity extends Activity {
         int id = item.getItemId();
 
         /*noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        -if (id == R.id.action_settings) {
             return true;
         }*/
 
